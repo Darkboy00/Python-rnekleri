@@ -65,7 +65,7 @@ while True:
 
 
     elif giris == 3:
-        baglanti = pymysql.connect(host = '185.154.131.61', unix_socket = '/var/run/mysqld/mysqld.sock', user = 'anahtary_kenan', passwd = 'Five-Seven54', db = 'anahtary_python', charset='utf8')
+        baglanti = pymysql.connect(host = '', unix_socket = '/var/run/mysqld/mysqld.sock', user = '', passwd = '', db = '', charset='utf8')
         cursors = baglanti.cursor()
         sorgu = "SELECT * FROM araba"
         cursors.execute(sorgu)
